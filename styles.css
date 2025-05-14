@@ -10,15 +10,6 @@ body {
   color: #333;
 }
 
-img {
-  max-width: 100%;
-  height: auto;
-}
-
-a {
-  text-decoration: none;
-}
-
 .underline {
   width: 60px;
   height: 2px;
