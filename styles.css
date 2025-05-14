@@ -210,7 +210,7 @@ header {
 .testimonial-grid {
   display: flex;
   justify-content: space-between;
-  gap: 130px;
+  gap: 80px;
 }
 
 .testimonial {
@@ -290,6 +290,22 @@ footer {
 }
 
 /* Media Queries */
+
+@media (min-width: 600px) and (max-width: 1024px) {
+  .testimonial {
+    padding: 0;
+  }
+
+  .hero-image img {
+    object-fit: cover;
+  }
+
+  .testimonial-grid {
+    display: flex;
+    justify-content: space-between;
+    gap: 60px;
+  }
+}
 
 @media (max-width: 600px) {
   .hero-overlay {
